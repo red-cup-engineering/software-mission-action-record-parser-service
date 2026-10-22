@@ -10,5 +10,10 @@
   "exports": {
     ".": "./src/action-record-parser.mjs",
     "./src/action-record-parser.mjs": "./src/action-record-parser.mjs"
+  },
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
   }
 }
