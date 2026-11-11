@@ -21,7 +21,7 @@ It has no runtime dependencies.
 ## Usage
 
 ```js
-import { parseSoftwareMissionActionRecord, actionBlocks } from "./src/action-record-parser.mjs";
+import { parseSoftwareMissionActionRecord, actionBlocks } from "@red-cup-engineering/software-mission-action-record-parser-service";
 
 parseSoftwareMissionActionRecord({
   text: '{"action": "edit_file", "args": {"path": "src/index.js", "blocks": []}}',
@@ -77,8 +77,5 @@ carries no blocks.
 
 ## Validation
 
-This repository currently has no test script or checked-in test suite. Check the parser syntax with:
-
-```sh
-node --check src/action-record-parser.mjs
-```
+Run `npm test` to check JSON and Markdown actions, aliases, edit blocks,
+and incomplete input through the package export.
